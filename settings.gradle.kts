@@ -4,3 +4,7 @@ plugins {
 }
 
 rootProject.name = "pts-post-merge-strategy"
+
+gradleEnterprise {
+    server = "https://foo.bar"
+}
