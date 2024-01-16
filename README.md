@@ -4,6 +4,12 @@ This repository illustrates how [Develocity Predictive Selection feature](https:
 
 ## Implementation
 
+### Nightly Build
+
+Builds of the main branch happen with PTS disabled.
+
+See the [workflow file](./.github/workflows/nightly-build.yml) for more details.
+
 ### Main Build
 
 Builds of the main branch happen with PTS enabled and remaining tests selection.
@@ -24,3 +30,4 @@ See the [workflow file](./.github/workflows/pr-build.yml) for more details.
 
 ### Cons
 - Risk if main branch build failures are not monitored closely
+- Cacheability of the test tasks is impacted
